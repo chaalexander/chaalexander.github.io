@@ -12,13 +12,13 @@ class App extends Component {
     return (
       <Router>
         <>
+          <NavBar />
           <Wrapper>
-            <NavBar />
             <Route exact path="/reactPortfolio" component={About} />
             <Route exact path="/" component={About} />
             <Route path="/portfolio" component={Portfolio} />
-            <Footer />
           </Wrapper>
+          <Footer />
         </>
       </Router>
     );
