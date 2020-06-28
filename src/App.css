@@ -88,7 +88,7 @@ span {
 }
 .card {
   width: 18rem;
-  height: 400px;
+  height: 420px;
   margin: 45px;
 }
 
@@ -101,7 +101,8 @@ img {
 }
 
 .use {
-  margin-left: 18px;
+  text-align: center;
+  margin: 15px;
 }
 
 .card-title {

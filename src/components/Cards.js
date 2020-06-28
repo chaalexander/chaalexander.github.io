@@ -25,13 +25,11 @@ function Cards(props) {
         </a>
       </div>
       <div className="use">
-        <ul className="uselist-unstyled">
-          <i className={`fab fa-${props.use} fa-2x`}></i>{" "}
-          <i className={`fab fa-${props.use1} fa-2x`}></i>{" "}
-          <i className={`fab fa-${props.use2} fa-2x`}></i>{" "}
-          <i className={`fab fa-${props.use3} fa-2x`}></i>{" "}
-          <i className={`fab fa-${props.use4} fa-2x`}></i>
-        </ul>
+        <i className={`fab fa-${props.use} fa-2x`}></i>{" "}
+        <i className={`fab fa-${props.use1} fa-2x`}></i>{" "}
+        <i className={`fab fa-${props.use2} fa-2x`}></i>{" "}
+        <i className={`fab fa-${props.use3} fa-2x`}></i>{" "}
+        <i className={`fab fa-${props.use4} fa-2x`}></i>
       </div>
     </div>
   );
