@@ -14,7 +14,6 @@ class App extends Component {
         <>
           <NavBar />
           <Wrapper>
-            <Route exact path="/reactPortfolio" component={About} />
             <Route exact path="/" component={About} />
             <Route path="/portfolio" component={Portfolio} />
           </Wrapper>
