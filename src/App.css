@@ -10,15 +10,16 @@
 }
 
 .lng {
-  margin: 10px;
+  margin: 30px;
+  display: inline-block;
 }
-
+/* .display {
+  display: inline;
+  text-align: center;
+} */
 .languages {
   margin-top: -80px;
 }
-/* .displayUnder {
-  display: inline-grid;
-} */
 
 #aboutme {
   font-size: 25px;
