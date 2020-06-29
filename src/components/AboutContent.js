@@ -26,6 +26,7 @@ function AboutContent() {
               <i className="fab fa-react fa-2x"></i>{" "}
               <i className="fab fa-npm fa-2x"></i>{" "}
               <i className="fab fa-node fa-2x"></i>{" "}
+              <i class="fab fa-react fa-2x"></i>
             </p>
             {/* will just show on a big screen */}
             <div className="languages">
@@ -42,6 +43,8 @@ function AboutContent() {
                 <span className="displayUnder">NPM</span>{" "}
                 <i className="fab fa-node fa-3x lng"></i>{" "}
                 <span className="displayUnder">Node</span>{" "}
+                <i class="fab fa-react fa-3x lng"></i>
+                <span className="displayUnder">React</span>{" "}
               </ul>
             </div>
           </div>
