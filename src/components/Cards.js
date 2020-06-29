@@ -7,6 +7,13 @@ function Cards(props) {
       <div className="card-body">
         <h5 className="card-title">{props.cardTitle}</h5>
         <p className="card-text">{props.cardText}</p>
+        <div className="use">
+          <i className={`fab fa-${props.use} fa-2x`}></i>{" "}
+          <i className={`fab fa-${props.use1} fa-2x`}></i>{" "}
+          <i className={`fab fa-${props.use2} fa-2x`}></i>{" "}
+          <i className={`fab fa-${props.use3} fa-2x`}></i>{" "}
+          <i className={`fab fa-${props.use4} fa-2x`}></i>
+        </div>
         <a
           href={props.liveLink}
           target="_blank"
@@ -23,13 +30,6 @@ function Cards(props) {
         >
           Code
         </a>
-      </div>
-      <div className="use">
-        <i className={`fab fa-${props.use} fa-2x`}></i>{" "}
-        <i className={`fab fa-${props.use1} fa-2x`}></i>{" "}
-        <i className={`fab fa-${props.use2} fa-2x`}></i>{" "}
-        <i className={`fab fa-${props.use3} fa-2x`}></i>{" "}
-        <i className={`fab fa-${props.use4} fa-2x`}></i>
       </div>
     </div>
   );

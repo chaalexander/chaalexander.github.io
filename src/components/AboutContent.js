@@ -26,7 +26,7 @@ function AboutContent() {
               <i className="fab fa-react fa-2x"></i>{" "}
               <i className="fab fa-npm fa-2x"></i>{" "}
               <i className="fab fa-node fa-2x"></i>{" "}
-              <i class="fab fa-react fa-2x"></i>
+           
             </p>
             {/* will just show on a big screen */}
             <div className="languages">

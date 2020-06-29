@@ -20,13 +20,13 @@ class Portfolio extends Component {
               cardImage={portfolioInfo.cardImage}
               cardTitle={portfolioInfo.cardTitle}
               cardText={portfolioInfo.cardText}
-              liveLink={portfolioInfo.liveLink}
-              code={portfolioInfo.code}
               use={portfolioInfo.use}
               use1={portfolioInfo.use1}
               use2={portfolioInfo.use2}
               use3={portfolioInfo.use3}
               use4={portfolioInfo.use4}
+              liveLink={portfolioInfo.liveLink}
+              code={portfolioInfo.code}
             />
           ))}
         </div>
