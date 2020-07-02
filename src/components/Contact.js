@@ -47,8 +47,8 @@ export default function Contact() {
           <img src={gmail} className="icon" alt="gmail" />
           {showGmailLabel && <span>Gmail</span>}
         </a>
-        <Link
-          to={resume}
+        <a
+          href="../assets/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className={showResumeLabel && "hoverIcon"}
@@ -57,7 +57,7 @@ export default function Contact() {
         >
           <img className="icon" alt="resume" src={resumeIcon} />
           {showResumeLabel && <span>Resume</span>}
-        </Link>
+        </a>
       </ul>
     </div>
   );
