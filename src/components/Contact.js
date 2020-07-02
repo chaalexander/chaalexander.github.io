@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import github from "../assets/images/icons/github.png";
 import linkedin from "../assets/images/icons/linkedin.png";
 import gmail from "../assets/images/icons/gmail.png";
@@ -48,7 +47,7 @@ export default function Contact() {
           {showGmailLabel && <span>Gmail</span>}
         </a>
         <a
-          href="../assets/resume.pdf"
+          href={resume}
           target="_blank"
           rel="noopener noreferrer"
           className={showResumeLabel && "hoverIcon"}

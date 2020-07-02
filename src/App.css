@@ -6,7 +6,6 @@
 /* about */
 #about {
   margin-top: 80px;
-  border-radius: 30px;
 }
 
 .lng {
@@ -178,7 +177,7 @@ h6 {
     width: 100%;
     margin-bottom: 0px;
     margin-top: 40px;
-    visibility: visible
+    visibility: visible;
   }
 
   .aboutmeBig {
